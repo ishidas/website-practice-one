@@ -30,21 +30,44 @@ This site has a good instruction. Follow option 1 of the article. https://hacker
 ### Step 5 Build a website!
 
 1. clone this repository using git
-2. open the cloned repository using `atom .` command period is part of the command. if it `atom .` doesn't work, google how to get it to work.
+2. open the cloned repository using Atom. Open your terminal and create a directory where you want to store all your projects in. I would normally name mine as "Projects".
+
+To create a directory in terminal:
+
+- `$ ls` enter - look at the list displayed and make sure you see Applications, Desktops and stuff that means you are in your home directory. if you don't see those, do `$ cd` enter - that will get you back to your home.
+
+- `$ mkdir Projects` enter - will make a directory called Project
+
+- `$ cd Projects` enter - will let you go inside of Projects directory
+
+- `$ git clone paste-what-you-copied-from-github` enter - will clone down (copy) the folders and files from github repository
+
+- `$ cd website-practice-one` enter- will let you go inside of website-practice-one folder/direcotry
+
+- `$ atom .` enter - SHOULD open atom with all the files inside of website-practice-one if it doensn't open, you could go to your mac finder and find website-parctice-one folder and right click to open with atom. 
 
 
-#Helper
+
+`atom .` command period is part of the command. if it `atom .` doesn't work, google how to get it to work.
+
+
+# Helper
 Terminal command you can use:
 
 `$ ls` enter - list up all the files and directories(folders) in the current level
 
 `$ ls -la` enter - will show you list of files and directories(folders) and hidden files and directories(folders)
 
-`$ cd ./Applications `enter - will let you drill into ./Application meaning you are going into Application folder.
+`$ cd Applications ` enter - will let you drill into ./Application meaning you are going into Application folder.
 
 `$ cd ../` enter - will let you move up one level (so if you were in Applications folder, you should be back to where you started)
 
-`$ clear` should clear all the stuff showed on the terminal if you want a fresh start
+`$ clear` enter - should clear all the stuff showed on the terminal if you want a fresh start
+
+`$ mkdir SomeFolderName` enter - will create a folder/directory. Developers call folders and directories interchangeablly.
+
+`$ touch filename.js` enter - will create a filename.js file in the current directory
+
 
 Google is your best friend :D there are almost always answers there! That's what everyone who is going into programming would be told, so here it is lol 
 
