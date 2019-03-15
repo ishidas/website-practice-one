@@ -35,10 +35,15 @@ This site has a good instruction. Follow option 1 of the article. https://hacker
 
 #Helper
 Terminal command you can use:
+
 `$ ls` enter - list up all the files and directories(folders) in the current level
+
 `$ ls -la` enter - will show you list of files and directories(folders) and hidden files and directories(folders)
+
 `$ cd ./Applications `enter - will let you drill into ./Application meaning you are going into Application folder.
+
 `$ cd ../` enter - will let you move up one level (so if you were in Applications folder, you should be back to where you started)
+
 `$ clear` should clear all the stuff showed on the terminal if you want a fresh start
 
 Google is your best friend :D there are almost always answers there! That's what everyone who is going into programming would be told, so here it is lol 
